@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import cozyPigImage from "./../public/img/cozy-pig-1.jpeg";
+import ConvertkitEmailForm from "./convertkitForm";
 
 const Hero = () => {
 
@@ -16,17 +17,8 @@ const Hero = () => {
               Learn how to run your online business calmly and avoid burnout with our newsletter every Saturday.
             </p>
 
-            <div className="w-full -mt-20">
-              <iframe
-                // src="https://thecozypreneu.ck.page/eeea7342e3"
-                src="https://thecozypreneu.ck.page/4cde0d254f"
-                title="Cozypreneur Form"
-                width="100%"
-                height="700"
-                frameBorder="0"
-                scrolling="no"
-                className="bg-[#edd1b2]"
-              ></iframe>
+            <div className="w-full">
+              <ConvertkitEmailForm />
             </div>
           </div>
 
