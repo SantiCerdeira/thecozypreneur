@@ -26,7 +26,6 @@ const Hero = () => {
                 frameBorder="0"
                 scrolling="no"
                 className="bg-[#edd1b2]"
-                style={`background: #edd1b2;`}
               ></iframe>
             </div>
           </div>
