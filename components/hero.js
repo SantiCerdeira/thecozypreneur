@@ -8,11 +8,11 @@ const Hero = () => {
     <>
       <Container className="flex flex-wrap">
         <div className="flex items-center flex-col w-full lg:flex-row ">
-          <div className="max-w-3xl pt-20 ">
+          <div className="max-w-3xl lg:pt-20 ">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-[#1B2A41] lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
               Become a <i>Cozypreneur</i> and escape from <span className="underline underline-offset-4 decoration-red-700 decoration-wavy decoration-4">burnout</span>
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl">
+            <p className="py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl">
               Learn how to run your online business calmly and avoid burnout with our newsletter every Saturday.
             </p>
 
@@ -21,7 +21,7 @@ const Hero = () => {
                 src="https://thecozypreneu.ck.page/eeea7342e3"
                 title="Cozypreneur Form"
                 width="100%"
-                height="600"
+                height="700"
                 frameBorder="0"
                 scrolling="no"
               ></iframe>
