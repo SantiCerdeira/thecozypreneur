@@ -18,10 +18,11 @@ const Hero = () => {
 
             <div className="w-full -mt-20">
               <iframe
-                src="https://thecozypreneu.ck.page/eeea7342e3"
+                // src="https://thecozypreneu.ck.page/eeea7342e3"
+                src="https://thecozypreneu.ck.page/4cde0d254f"
                 title="Cozypreneur Form"
                 width="100%"
-                height="400"
+                height="700"
                 frameBorder="0"
                 scrolling="no"
               ></iframe>
