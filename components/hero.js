@@ -21,7 +21,7 @@ const Hero = () => {
                 src="https://thecozypreneu.ck.page/eeea7342e3"
                 title="Cozypreneur Form"
                 width="100%"
-                height="700"
+                height="400"
                 frameBorder="0"
                 scrolling="no"
               ></iframe>
