@@ -13,12 +13,12 @@ const Hero = () => {
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-[#1B2A41] lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
               Become a <i>Cozypreneur</i> and escape from <span className="underline underline-offset-4 decoration-red-700 decoration-wavy decoration-4">burnout</span>
             </h1>
-            {/* <p className="py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl">
-              Made for solopreneurs. Learn how to run your online business calmly and avoid burnout with our newsletter every Saturday.
-            </p> */}
             <p className="py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl">
-              Helping solopreneurs run their online businesses calmly and avoiding burnout.
+              Made for solopreneurs. Learn how to run your online business calmly and avoid burnout with our newsletter every Saturday. 
             </p>
+            {/* <p className="py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl">
+              Helping solopreneurs run their online businesses calmly and avoiding burnout.
+            </p> */}
 
             <div className="w-full">
               <ConvertkitEmailForm />
