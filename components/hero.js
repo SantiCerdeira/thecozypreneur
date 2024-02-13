@@ -14,7 +14,7 @@ const Hero = () => {
               Become a <i>Cozypreneur</i> and escape from <span className="underline underline-offset-4 decoration-red-700 decoration-wavy decoration-4">burnout</span>
             </h1>
             <p className="py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl">
-              Learn how to run your online business calmly and avoid burnout with our newsletter every Saturday.
+              Made for solopreneurs. Learn how to run your online business calmly and avoid burnout with our newsletter every Saturday.
             </p>
 
             <div className="w-full">
