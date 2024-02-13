@@ -31,30 +31,32 @@ class ConvertkitEmailForm extends Component {
 
   render() {
     return (
-      <form onSubmit={this.subscribeUser}>
-        <input
-          id="newsletter-input"
-          type="email"
-          name="email"
-          className="shadow-md rounded-md px-5 py-2 m-0 w-12/12 mx-auto"
-          placeholder="Enter your email"
-          aria-label="Enter Email Address"
-          aria-describedby="nnewsletter-btn"
-          value={this.state.email}
-          onChange={this.emailHandler}
-          required
-          autoCapitalize="off"
-          autoCorrect="off"
-        />
-        <button
-          type="submit"
-          id="newsletter-btn"
-          className="bg-[#1B2A41] w-12/12 mx-auto text-white font-semibold px-5 py-2 rounded-md m-0 hover:bg-slate-600 transition-all duration-150"
-          value=""
-          name="subscribe"
-        >
-          Subscribe
-        </button>
+      <form onSubmit={this.subscribeUser} >
+        <div className='flex flex-col w-full'>
+          <input
+            id="newsletter-input"
+            type="email"
+            name="email"
+            className="shadow-md rounded-md px-5 py-2 m-0 w-full mx-auto"
+            placeholder="Enter your email"
+            aria-label="Enter Email Address"
+            aria-describedby="nnewsletter-btn"
+            value={this.state.email}
+            onChange={this.emailHandler}
+            required
+            autoCapitalize="off"
+            autoCorrect="off"
+          />
+          <button
+            type="submit"
+            id="newsletter-btn"
+            className="bg-[#1B2A41] w-full mx-auto text-white font-semibold px-5 py-2 rounded-md m-0 hover:bg-slate-600 transition-all duration-150"
+            value=""
+            name="subscribe"
+          >
+            Subscribe for FREE
+          </button>
+        </div>
         {
           (this.state.message.length > 0) && 
           <p id="newsletter-message" className={"text-left text-sm mt-3 alert alert-warning bg-[#1B2A41] rounded-md text-white w-full px-5 py-2 "}>
