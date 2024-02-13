@@ -25,6 +25,8 @@ async function convertkitSubscribeHandler(req, res) {
       method: 'POST',
     });
 
+    console.log(response)
+
     if (response.status == 200) {
       return res.status(200).json({ message: success_message });
     } else {
